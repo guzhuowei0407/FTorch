@@ -87,8 +87,7 @@ call torch_tensor_from_array(out_tensors(1), out_data, out_layout, torch_kCPU)
 
 ! Infer
 call torch_model_forward(model, in_tensors, out_tensors)
-
----
+```
 
 ## Output Example
 
