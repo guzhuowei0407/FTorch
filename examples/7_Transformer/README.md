@@ -64,7 +64,7 @@ In this example:
      ```bash
      mkdir build
      cd build
-     cmake .. -DCMAKE_PREFIX_PATH=<path_to_ftorch_installation>
+     cmake .. -DCMAKE_PREFIX_PATH=<path_to_ftorch_installation> -DCMAKE_BUILD_TYPE=Release
      make
      ```
 
